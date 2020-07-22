@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+}
+
+.todo_box {
+  width: 100px;
+  height: 100px;
+  background-color: coral;
+  border-radius: 10px;
+
+  /* TODO */
+  /* 포지션 구현하기 */
+  position: relative;
+  top: 500px;
+  left: 600px;
+}
+.goal {
+  /* 기본 위치가 top = 100px 
+     왜냐하면 위에 있는 todo_box의 height = 100px라서 
+     만약 todo_bos의 height = 200px이면
+     goal의 기본 위치가 top = 200px가 된다.*/
+  width: 300px;
+  height: 300px;
+  border: 3px dashed coral;
+  border-radius: 10px;
+
+  position: relative;
+  top: 300px;
+  left: 500px;
+}
