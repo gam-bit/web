@@ -1,0 +1,30 @@
+.box_container1 {
+    width: 600px;
+    height: 115px;
+    display: flex;
+}
+
+.box_container2 {
+    width: 600px;
+    height: 115px;
+    display: flex;
+    justify-content: center;
+}
+
+.box_container3 {
+    width: 600px;
+    height: 115px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: tomato;
+    border: tomato solid 3px;
+    border-radius: 10px;
+    margin: 5px;
+}
+

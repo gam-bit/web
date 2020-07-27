@@ -1,0 +1,22 @@
+.top_container {
+    display: flex;
+    flex-direction: column; /* main axix = 세로축 */
+    width: 100%;
+    align-items: center; /* cross axis = 가로축 */
+}
+    
+
+
+.box_container {
+    display: flex;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: tomato;
+    border: tomato solid 3px;
+    border-radius: 10px;
+    margin: 4px;
+}
+
