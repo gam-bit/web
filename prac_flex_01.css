@@ -1,0 +1,20 @@
+.box_container {
+
+    width: 400px;
+    height: 150px;
+    border: lightseagreen solid 3px;
+    border-radius: 5px;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    border: 3px solid lightseagreen;
+    background-color: lightseagreen;
+    border-radius: 5px;
+}
