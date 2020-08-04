@@ -31,6 +31,10 @@ for movie in movie_selection:
 print(movie_data)
 
 
-
+with open('./data/naver_movie.csv', 'w') as csvfile:
+    filednames = ['title', 'code']
+    writer = csv.DictWriter(csvfile, fieldnames=filednames, lineterminator = '\n')
+    writer.writeheader()
+    writer.writerows(movie_data)
 
 
