@@ -1,0 +1,410 @@
+* {
+    margin: 0;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.warningcovid19 {
+    width: 100%;
+    background-color: rgb(30, 115, 225);    
+    display: flex;
+    padding: 23px;
+}
+
+
+.warningcovid19_text1 {
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0 0 0 15%;
+}
+
+
+.warningcovid19_text2 {
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 13px 0 5px 0;
+    
+}
+
+div.header > img {
+    width: 180px;
+    height: 33px;
+    margin: 0 0 0 15%;
+}
+
+
+.cust_info {
+    width: 350px;
+    height: 40px;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 0 0 0;
+    margin: 0 15% 0 0;
+} 
+
+.qna {
+    color: rgb(30, 115, 225);
+    font-size: 14px;
+}
+
+.nation_setting {
+    width: 160px;
+    height: 33px;
+    border: rgba(7, 7, 7, 0.15) solid 1.5px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 15px;
+    
+}
+
+.location > img {
+    width: auto;
+    height: auto;
+    max-width: 20px;
+    border: rgba(7, 7, 7, 0.15) solid 1px;
+    float: left;
+    margin: 0 3px;
+}
+
+
+.currency {
+
+    opacity: 0.5;
+}
+
+.login_container {
+    width: 90px;
+    height: 33px;
+    border: rgba(7, 7, 7, 0.15) solid 1.5px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login {
+    
+    font-size: 19px;
+    font-weight: bold;
+    color: rgb(30, 115, 225);
+}
+
+
+
+
+
+
+.choice {
+    width: 80%;
+    display: flex;
+    justify-content: flex-start;
+    float: left;
+    margin: 10px 15%;
+}
+
+
+.air {
+    width: 85px;
+    height: 40px;
+    background-color: rgb(8, 40, 88);
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1px 8px;
+}
+
+.air > img {
+    width: auto;
+    height: auto;
+    max-width: 20px;
+    margin: 0 5px 0 0;
+}
+
+
+.hotel {
+    width: 72px;
+    height: 40px;
+    background-color: rgb(30, 115, 225);
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1px 8px; 
+    margin: 0 5px;
+}
+
+.hotel > img {
+    width:auto;
+    height: auto;
+    max-width: 20px;
+    margin: 0 5px 0 0;
+}
+
+.rentcar {
+    width: 85px;
+    height: 40px;
+    background-color: rgb(30, 115, 225);
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1px 8px;   
+}
+
+.rentcar > img {
+    width: auto;
+    height: auto;
+    max-width: 20px;
+    margin: 0 5px 0 0;
+}
+
+.name {
+    color: white;
+    font-weight: bolder;
+}
+
+
+
+
+
+.content {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.details {
+
+    background-image: url("https://img.huffingtonpost.com/asset/56eaf7351500002a000b263a.jpeg?ops=crop_12_182_2111_846%2Cscalefit_720_noupscale&format=webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: -13px 0;
+    padding: 5% 0;
+}
+
+
+h1.title1 {
+    color: white;
+    font-weight: bolder;
+    font-size: 60px;
+    margin: 0 0 40px 15%;
+}
+
+
+.ticketsearch {
+    width: 70%;
+    height: 195px;
+    background-color: rgb(3, 19, 43);
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0 15%;
+    
+}
+
+.first_row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+
+.choice_details {
+    
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+input[name='airticket'] {
+    margin: 0 5px 0 0;
+}
+
+
+
+
+.map {
+    color: white;
+}
+
+.second_row {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.third_row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 0 5px 0;
+}
+
+
+
+.option_air {
+
+    height: 50px;
+    color: white;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: -5px 0 0 0;
+   
+}
+
+.option_airport {
+    width: 330px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+input[name='nearby_departure'] {
+    margin: 0 5px 0 0;
+}
+
+input[name='nearby_arrival'] {
+    margin: 0 5px 0 0;
+}
+
+
+.option_airplane {
+    display: flex;
+}
+
+div.option1 {
+    margin: 0 20px 0 0;
+}
+
+input[name='option1'] {
+    margin: 0 5px 0 0;
+}
+
+input[name='option2'] {
+    margin: 0 5px 0 0;
+}
+
+
+div.search {
+    width: 160px;
+    height: 36px;
+    border-radius: 5px;
+    background-color: rgb(46, 166, 152);
+    color: white;
+    font-size: 24px;
+    font-weight: bolder;
+    padding: 3px 25px 3px 25px;
+    margin: 10px 0 0 0;
+}
+
+a.search {
+    color: white;
+}
+
+
+div.departure {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+div.arrival {
+    display: flex;
+    flex-direction: column;
+}
+
+div.depart_date {
+
+    display: flex;
+    flex-direction: column;
+}
+
+div.return_date {
+    display: flex;
+    flex-direction: column;
+}
+
+div.cabin_and_travelers {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+input#departure {
+    height: 100%;
+    background: url('./img/switchbutton.PNG') no-repeat right center; 
+    border-radius: 6px;
+    padding: 15px;
+    background-color: white;
+    font-size: 16px;
+    
+}
+
+input#arrival {
+    height: 100%;
+    border-radius: 6px;
+    padding: 15px;
+    background-color: white;
+    font-size: 16px;
+}
+
+input#depart_date { 
+    border-radius: 6px;
+    padding: 15px;
+    background-color: white;
+    font-size: 16px;
+}
+
+input#return_date {
+    height: 100%;
+    border-radius: 6px;
+    padding: 15px;
+    background-color: white;
+    font-size: 16px;
+}
+
+select#cabin_and_travelers {
+    height: 100%;
+    width: 250px;
+    border-radius: 6px;
+    padding: 15px;
+    background-color: white;
+    font-size: 16px;
+    padding: 15px;
+}
+
+
+.ticketsearch {
+    padding: 20px;
+}

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel='stylesheet' href="prac_skyscanner.css" />
+</head>
+<body>
+    <div class="top">
+        <div class="warningcovid19">
+            <span class="warningcovid19_text1">
+                코로나바이러스는 여러분의 여행 계획에 영향을 끼칠 수 있습니다. 어디로 가시든지,            
+                <a href="https://www.skyscanner.co.kr/news/tips/corona-virus-information" class="warningcovid19_text2">
+                    여러분은 여기에서 최신 지침을 찾으실 수 있습니다.
+                </a>
+            </span>
+        </div>
+        <div class="header">
+            <img src="./img/skyscanner_2019_logo.png" alt='logo'/>
+            <div class="cust_info">
+                <a href="https://help.skyscanner.net/hc/ko?skyCurrency=currency_krw&skyLanguage=lang_ko&skyMarket=kr_skyscanner&_mp=173a8ef48d4ad-0c9a942b9f206c-3323765-144000-173a8ef48d5cdf_1596270583180&preferences=ace1f67bfbad4bb0b6677cbdcc7eb0b3&traveller_context=ace1f67b-fbad-4bb0-b667-7cbdcc7eb0b3&_ga=2.79325396.174531565.1596268708-906051079.1596268708" class="qna" style="text-decoration:none">
+                    도움말
+                </a>
+                <div class="nation_setting">
+                    <div class="language">한국어</div>
+                    <div class="location">
+                        <img src="./img/Flag_of_South_Korea.svg.png" alt='flag'/>
+                        <span>대한민국</span>
+                    </div>
+                    <div class="currency">￦ KRW</div>
+                </div>  
+                <div class="login_container">
+                    <div class="login">
+                        로그인
+                    </div>
+                </div>     
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <div class="choice">
+            <div class="air">
+                <img src="./img/airplane.png" alt='airplane'/> 
+                    <span class="name">항공권</span>
+            </div>
+            <div class="hotel">
+                <img src="./img/twin_bed.png" alt='hotel' />
+                    <span class="name">호텔</span>
+            </div>
+            <div class="rentcar">
+                <img src='./img/transport.png' alt='rentcar' />
+                    <span class="name">렌터카</span> 
+            </div>
+        </div>
+        <form action="https://www.skyscanner.co.kr/" method='POST'>
+            <div class="details">
+                <!-- <img src="https://img.huffingtonpost.com/asset/56eaf7351500002a000b263a.jpeg?ops=crop_12_182_2111_846%2Cscalefit_720_noupscale&format=webp" /> -->
+                <h1 class="title1">어디로 떠나볼까요?</h1>
+                <div class="ticketsearch">
+                    <div class="first_row">
+                        <div class="choice_details">
+                            <!-- input에 name을 이용해서 group을 만들 수 있다 -->
+                            <div class="ticket1">
+                                <input name='airticket' type="radio" checked="checked" value="왕복"/>왕복
+                            </div>
+                            <div class="ticket2">
+                                <input name='airticket' type="radio" value="편도"/>편도
+                            </div>
+                            <div class="ticket3">
+                                <input name='airticket' type="radio" value="다구간"/>다구간  
+                            </div>
+                        </div>
+                        <a href="https://www.skyscanner.co.kr/inspire/map?outboundDate=2020-08-06&outboundPlace=KWJ&preferDirects=false" class="map" style="text-decoration:none">
+                            지도로 검색하기
+                        </a>         
+                    </div>
+                    <div class="second_row">
+                        <div class="departure">
+                            <label for="departure">출발지</label>
+                            <input id="departure" type= "text" value="광주 (KWJ)"/>
+                        </div>
+                        <div class="arrival">
+                            <label for='arrival'>도착지</label>
+                            <input id='arrival' type= text placeholder="국가, 도시 또는 공항"/>
+                        </div>
+                        <div class="depart_date">
+                            <label for="depart_date">가는날</label>
+                            <input id="depart_date" type="date" />
+                        </div>
+                        <div class="return_date">
+                            <label for='return_date'>오는날</label>
+                            <input id="return_date" type="date" />
+                        </div>
+                        <div class="cabin_and_travelers">
+                            <label for="cabin_and_travelers">좌석 등급 및 승객</label>
+                            <select id="cabin_and_travelers">
+                                <option value="default" selected>1 성인, 일반석</option>
+                            </select>
+                        </div>                       
+                    </div>
+                    <div class="third_row">
+                        <div class="option_air">
+                            <div class="option_airport">
+                                <div class="nearby_departure">
+                                    <input name="nearby_departure" type="checkbox" value="주변 공항 추가"/>주변 공항 추가
+                                </div>
+                                <div class="nearby_arrival">
+                                    <input name="nearby_arrival" type="checkbox" value="주변 공항 추가"/>주변 공항 추가
+                                </div>
+                            </div>
+                            <div class="option_airplane">
+                                <div class="option1">
+                                    <input name="option1" type='checkbox' value="직항만" checked/>직항만
+                                </div> 
+                                <div class="option2"> 
+                                    <input name="option2" type='checkbox' value='변경 가능 항공권'/>변경 가능 항공권만 보기
+                                </div>   
+                            </div>
+                        </div>
+                        <div class="search">
+                            <a href="https://www.skyscanner.co.kr/transport/flights-from/kwj/200806/200813/?adults=1&children=0&adultsv2=1&childrenv2=&infants=0&cabinclass=economy&rtn=1&preferdirects=false&preferflexible=false&outboundaltsenabled=false&inboundaltsenabled=false&ref=home" class="search" style="text-decoration:none">
+                                항공권 검색→
+                            </a>
+                        </div>
+                    </div>
+                   
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
