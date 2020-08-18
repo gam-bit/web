@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+}
+
+div.top_container {
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    height: 100px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+div.including_spaces_cnt {
+    font-size: 30px;
+    color: rgb(73, 126, 235);
+}
+
+div.excluding_spaces_cnt {
+    font-size: 30px;
+    color: rgb(73, 126, 235);
+}

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>5반 학생 조회 서비스</h1>
+    {% comment %} action form에서 적은 url은 url에서 name을 찾음 {% endcomment %}
+    <form action="{% url 'result' %}" method="POST">{% csrf_token %}
+        <input name='username' placeholer="학생 이름을 입력하세요."/>
+        <button type='submit'>> 학생 조회하기</button>
+    </form>
+</body>
+</html>
