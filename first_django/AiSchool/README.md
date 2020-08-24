@@ -7,9 +7,13 @@
 
 ![home](../images/aischool_home.PNG)
 
+---
+
 ### 2. 1반 클릭 
 
 ![content](../images/aischool_detail.PNG)
+
+---
 
 ### 3. 학생 추가하기
 
@@ -25,6 +29,8 @@
 
 ![result3](../images/aischool_after_add.PNG)
 
+---
+
 ### 4. 학생 페이지 
 
 - 기존 학생 페이지
@@ -35,6 +41,7 @@
 
 ![newstudent](../images/aischool_new_student.PNG)
 
+---
 
 ### 5. 학생 정보 수정하기
 
@@ -50,6 +57,7 @@
 
 ![edit3](../images/aischool_edit3.PNG)
 
+---
 
 ### 6. 학생 정보 삭제하기
 
