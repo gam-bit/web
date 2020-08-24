@@ -4,4 +4,5 @@
 |-----|---------------|------------------|------------|-------------|--------------|
 | 1 | 2020-08-12 | [firstproject](./firstproject)|firstapp| root/login/signout pages | Django 기초 |
 | 2 | 2020-08-13 | [studentproject](./student)|studentapp| 학생 정보 조회 시스템 | `templates` 사용 |
-| 3 | 2020-08-18 | [CountProject](./count)| CountApp | 글자수 세기 | `css` 사용하기 |
+| 3 | 2020-08-18 | [CountProject](./count)| CountApp | 글자수 세기 | `css` 사용하기(`static`) |
+| 4 | 2020-08-24 | [AiSchoolProject](./AiSchool) | AiInfoApp | 광인사 page | `models.py`, `admin`, `CRUD` |
