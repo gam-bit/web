@@ -79,7 +79,7 @@
 
 ### 2. 로그인
 
-![login](../../images/aischool2_login1.PNG)
+![login](../../images/aischool2_login1.png)
 
 
 - 에러1
