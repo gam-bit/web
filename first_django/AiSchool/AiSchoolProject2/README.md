@@ -1,7 +1,7 @@
 ### `AischoolProject2`
 
 
-# Aischool page 만들기
+# Aischool page 만들기(8/24)
 
 ### 1. Home
 
@@ -68,3 +68,55 @@
 - 학생 정보 삭제 후 변경된 정보 확인
 
 ![delete2](../images/aischool_delete2.PNG)
+
+
+
+# 로그인, 회원가입 기능 구현(8/25)
+
+### 1. Home
+
+![home](../images/aischool2_home.PNG)
+
+### 2. 로그인
+
+![login](../images/aischool2_login1.PNG)
+
+
+- 에러1
+
+![login_error1](../images/aischool2_login_error1.PNG)
+
+- 에러2
+
+![login_error2](../images/aischool2_login_error2.PNG)
+
+- 에러3
+
+![login_error3](../images/aischool2_login_error3.PNG)
+
+- 제대로 로그인했을 경우
+
+![login_no_error](../images/aischool2_login2.PNG)
+
+![after_login](../images/aischool2_login.PNG)
+
+### 3. 로그아웃 버튼 누르면
+
+home으로 이동
+
+![logout](../images/aischool2_logout.png)
+
+
+### 4. 회원가입
+
+![signup1](../images/aischool2_signup1.png)
+
+
+- 정보 입력
+
+![signup2](../images/aischool2_signup2.png)
+
+- 회원가입 후 페이지
+
+![signup3](../images/aischool2_signup3.png)
+

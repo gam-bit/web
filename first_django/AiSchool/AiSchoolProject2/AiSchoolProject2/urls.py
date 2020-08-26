@@ -25,5 +25,7 @@ urlpatterns = [
     path('student/<int:std_pk>', views.student, name='student'),
     path('edit/<int:std_pk>', views.edit, name='edit'),
     path('delete/<int:std_pk>', views.delete, name='delete'),
-    
+    path('signup/', views.signup, name='signup'),
+    path('login/', views.login, name='login'),
+    path('logout/', views.logout, name='logout'),
 ]
