@@ -96,8 +96,6 @@
 
 - 제대로 로그인했을 경우
 
-![login_no_error](../../images/aischool2_login2.PNG)
-
 ![after_login](../../images/aischool2_login.PNG)
 
 ### 3. 로그아웃 버튼 누르면
