@@ -9,8 +9,9 @@ def home(request):
 def result(request):
 
     stc = request.POST['content']
-    cnt_letters_including_spaces = len(stc.replace('\n', ''))
-    cnt_letters_excluding_spaces = len(stc.replace(' ','').replace('\n', ''))
+    cnt_letters_including_spaces = len(stc.replace('\r', ''))
+    cnt_letters_excluding_spaces = len(stc.replace('\n', '').replace('\r', '').replace(' ',''))
+    print(cnt_letters_excluding_spaces)
     return render(request, 'result.html', 
                 {'cnt_letters_including_spaces': cnt_letters_including_spaces, 
                  'cnt_letters_excluding_spaces': cnt_letters_excluding_spaces})

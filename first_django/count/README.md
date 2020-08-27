@@ -15,6 +15,16 @@
 
 ### 2. 결과 페이지
 
-![result](../images/count_result.png)
+![image](https://user-images.githubusercontent.com/58651942/91447848-1c03f480-e8b4-11ea-9961-b471ba8fa4dc.png)
+
+
+---
+
+### 문제)
 
 공백을 제외한 경우, 줄넘김을 할 때마다 글자수가 1씩 늘어남. 네이버는 안 늘어남.
+
+### 해결)
+
+replace('\n', '')로 줄넘김을 처리했는데, 줄넘김이 '\r\n'으로 처리되어서 \r이 세졌음.
+<u>줄넘김을 \n 또는 \r\n으로 처리할 수 있으니 주의할 것</u>
