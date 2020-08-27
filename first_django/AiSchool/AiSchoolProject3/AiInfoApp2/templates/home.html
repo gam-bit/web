@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Ai School ver.2</h1>
+    {% if user.is_authenticated %}
+        {{user.get_username}}님, 안녕하세요.
+        </br>
+        <a href="{% url 'add' user.student.pk %}">자기소개 글쓰러가기</a>
+        </br>
+        <a href="{% url "logout" %}">로그아웃 > </a>
+    {% else %}
+        <a href="{% url 'signup' %}">회원가입하기 > </a>
+        <br/>
+        <a href="{% url 'login' %}">로그인하기 > </a>
+    {% endif %}
+        <br/>
+        <br/>
+        <br/>
+    {% for class in class_object%}
+        <div>
+            <a href="{% url 'detail' class.pk %}">
+            {% comment %} href를 이렇게 받으면 detail/1, detail/2 이런 page가 만들어짐 {% endcomment %}
+                >{{class.class_num}}반 
+                {{class.lecturer}}
+            </a>
+            <br/>
+            <br/>
+        </div>
+    {% endfor %}
+</body>
+</html>

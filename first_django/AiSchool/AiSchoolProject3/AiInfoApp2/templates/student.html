@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>학생 정보 페이지</h1>
+    <h2>{{student.name}}({{student.sex}}) - {{student.class_num}}반</h2>
+    <h3>전화번호 : {{student.phone_num}}</h3>
+    
+    {% for post in student.post.all %}
+        <h3>자기소개{{forloop.counter}} : {{post.intro}}</h3>
+    {% endfor %}
+    
+    {% if user.is_authenticated and user.student.pk == student.pk %}
+        <a href="{% url 'edit' student.pk %}">내 정보 수정하기 ></a>
+    {% endif %}
+</body>
+</html>
