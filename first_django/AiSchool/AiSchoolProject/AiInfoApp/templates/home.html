@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>AI School</h1>
+    {% for class in class_object %}
+        {{class.class_num}}
+        {{class.lecturer}}
+        {{class.class_room}}
+        {{class.students_num}}
+        <br/>
+        <br/>
+    {% endfor %}
+</body>
+</html>
