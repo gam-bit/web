@@ -3,12 +3,13 @@
 
 # Aischool page 만들기(8/27)
 
-### <u>Home</u>
+### Home
 
 ![image](https://user-images.githubusercontent.com/58651942/91462042-aeac8f80-e8c4-11ea-9a08-98930fee039c.png)
 
+---
 
-### <u>회원가입 페이지</u>
+### 회원가입 페이지
 
 - User와 학생정보를 1:1로 연결
 
@@ -18,13 +19,15 @@
 
 ![image](https://user-images.githubusercontent.com/58651942/91462305-02b77400-e8c5-11ea-8892-577b61e08abb.png)
 
-### <u>회원가입 후 Home</u>
+---
+
+### 회원가입 후 Home
 
 ![image](https://user-images.githubusercontent.com/58651942/91462414-1b278e80-e8c5-11ea-9207-e752c633c67f.png)
 
 ---
 
-### <u>자기소개 페이지</u>
+### 자기소개 페이지
 
 ![image](https://user-images.githubusercontent.com/58651942/91461925-8f156700-e8c4-11ea-97ab-9ca6273c0eee.png) 
 
@@ -33,8 +36,9 @@
 
 ![image](https://user-images.githubusercontent.com/58651942/91462530-3d211100-e8c5-11ea-9f2d-3450b2de3dfb.png)
 
+---
 
-### <u>자기소개 등록 후 페이지</u>
+### 자기소개 등록 후 페이지
 
 - 본인 정보에는 `내 정보 수정하기`가 있음
 
